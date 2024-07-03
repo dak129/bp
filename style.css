@@ -1,8 +1,14 @@
+* {
+	box-sizing: border-box;
+}
+
 html {
   height: 100%;
 }
 
 body {
+  margin: 0;
+  padding: 0;
   height: 100%;
   font-family: Gotham, sans-serif;
   font-size: 1.25em;
@@ -32,7 +38,7 @@ header {
 
  main {
 	flex-grow: 1;
-	padding-top: 50px;
+	/* padding-top: 50px; */
  }
  
  #logo {
