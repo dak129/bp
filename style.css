@@ -69,12 +69,11 @@ h1 {
 }
 
 .selection-item {
-  /* display: inline;*/
   margin: 0.5em;
   padding: 0.5em;
   background-color: #fdfffd;
   border: 2px solid #b1bed7;
-  border-radius: 10% 20%;
+  border-radius: 4px;
 }
 
 .center-textblock {
@@ -84,9 +83,10 @@ h1 {
 
 p {
   margin: 0.5em;
+  padding: 0.2em;
   line-height: 1.5;
   background-color: #fdfffd;
-  padding: 0.2em;
+  border-radius: 4px;
 }
 
 .button {
@@ -104,4 +104,8 @@ p {
 
  .address-anchor {
 	color: #65647a;
+ }
+
+ .address-anchor:hover {
+	color: #468847;
  }
